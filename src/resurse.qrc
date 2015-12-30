@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="coa">images/coa.png</file>
+        <file alias="crashed_coa">images/crashed_coa.png</file>
+        <file alias="concrete">images/concrete.jpg</file>
+        <file alias="brick">images/brick.jpg</file>
+        <file alias="water">images/water.jpg</file>
+        <file alias="grass">images/grass.png</file>
+        <file alias="simple_tank">images/simple.png</file>
+        <file alias="hard_tank">images/hard.png</file>
+        <file alias="hardest_tank">images/harder.png</file>
+        <file alias="cursor_tank">images/tank_cursor.png</file>
+        <file alias="explosion">images/explosion.png</file>
+        <file alias="bullet">images/bullet.png</file>
+        <file alias="dialog_background">images/bg_tank.jpg</file>
+        <file alias="dialog_background_">images/_tank.jpeg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>sounds/boom.wav</file>
+        <file alias="shot_">sounds/shot_.wav</file>
+        <file alias="tank_shot">sounds/tank_shot.wav</file>
+        <file alias="boom">sounds/boomik.wav</file>
+    </qresource>
+</RCC>
