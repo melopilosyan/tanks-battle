@@ -2,7 +2,7 @@
 #define TANKITEM_H
 
 #include "neededTypes.h"
-#include <phonon/MediaObject>
+//#include <phonon/MediaObject>
 
 
 /*
@@ -44,7 +44,7 @@ private:
     Direction m_direction;
     Complicity m_complicity;
     BulletItem* m_myBullet;
-    Phonon::MediaObject* m_shotVoice;
+    //Phonon::MediaObject* m_shotVoice;
 
     int m_lifeNum;
 

@@ -19,7 +19,7 @@ TankItem::TankItem( const Position& pos,
                                             m_direction( direction ),
                                             m_complicity( complicity ),
                                             m_myBullet( 0 ),
-                                            m_shotVoice( 0 ),
+                                            //m_shotVoice( 0 ),
                                             m_lifeNum( 1  )
 {
     // qDebug() << "TankItem" << num;
@@ -43,7 +43,7 @@ TankItem::TankItem( const Position& pos,
 
 TankItem::~TankItem()
 {
-    delete m_shotVoice;
+    //delete m_shotVoice;
     // qDebug() << "TankItem::~TankItem" << num;
 }
 
